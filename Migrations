@@ -1,0 +1,7 @@
+const Project = artifacts.require("Project");
+
+module.exports = function (deployer) {
+ // Deploying the Project contract
+deployer.deploy(Project);
+
+};
